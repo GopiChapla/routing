@@ -12,6 +12,11 @@ import Objectmap from './Objectmap';
 import Arraydestructure from './Arraydestructure';
 import Arraymap from './Arraymap';
 import Parent from './Parent';
+import Purecomponentdemo from './Purecomponentdemo';
+import Uncontrolled from './Uncontrolled';
+import Controlled from './Controlled';
+import Hocdemo from './Hocdemo';
+import Fetchapi from './Fetchapi';
 
 function App() {
   return (
@@ -30,9 +35,14 @@ function App() {
             <Route path='/odd' element={<Odd />} />
             <Route path='/getinput' element={<Getinput />} />
             <Route path='/objectmapshow' element={<Objectmap />} />
-            <Route path='/arraydestructure' element={<Arraydestructure/>}/>
-            <Route path='/arraymap' element={<Arraymap/>}/>
-            <Route path='/parent' element={<Parent/>}/>
+            <Route path='/arraydestructure' element={<Arraydestructure />} />
+            <Route path='/arraymap' element={<Arraymap />} />
+            <Route path='/parent' element={<Parent />} />
+            <Route path='/purecomponent' element={<Purecomponentdemo />} />
+            <Route path='/uncontrolled' element={<Uncontrolled />} />
+            <Route path='/controlled' element={<Controlled />} />
+            <Route path='/hoc' element={<Hocdemo />} />
+            <Route path='/fetchapi' element={<Fetchapi />} />
           </Routes>
         </div>
       </Router>
