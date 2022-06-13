@@ -17,6 +17,10 @@ import Uncontrolled from './Uncontrolled';
 import Controlled from './Controlled';
 import Hocdemo from './Hocdemo';
 import Fetchapi from './Fetchapi';
+import Axiosget from './Axiosget';
+import Axiospost from './Axiospost';
+import Axiosput from './Axiosput';
+import Axiosdelete from './Axiosdelete';
 
 function App() {
   return (
@@ -43,6 +47,10 @@ function App() {
             <Route path='/controlled' element={<Controlled />} />
             <Route path='/hoc' element={<Hocdemo />} />
             <Route path='/fetchapi' element={<Fetchapi />} />
+            <Route path='/axiosget' element={<Axiosget />} />
+            <Route path='/axiospost' element={<Axiospost />} />
+            <Route path='/axiosput' element={<Axiosput />} />
+            <Route path='/axiosdelete' element={<Axiosdelete />} />
           </Routes>
         </div>
       </Router>

@@ -16,6 +16,10 @@ const Pages = () => {
             <a href="/controlled">Controlled Component</a><br />
             <a href="/hoc">HOC</a><br />
             <a href="/fetchapi">Fetch API</a><br />
+            <a href="/axiosget">Axios GET</a><br />
+            <a href="/axiospost">Axios POST</a><br />
+            <a href="/axiosput">Axios PUT</a><br />
+            <a href="/axiosdelete">Axios DELETE</a><br />
         </div>
     )
 }
